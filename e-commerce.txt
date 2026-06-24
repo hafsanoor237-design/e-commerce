@@ -1,0 +1,9 @@
+fetch("/api/orders", {
+  method: "POST",
+  headers: {"Content-Type":"application/json"},
+  body: JSON.stringify({
+    userId: "123",
+    items: cart,
+    total: 500
+  })
+});
